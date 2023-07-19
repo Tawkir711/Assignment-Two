@@ -3,13 +3,14 @@
     .banner{
         flex-direction: column-reverse;
     }
-    nav{
+    nav, .section{
         flex-direction: column;
         margin-top: 80px;
     }
     .nav-list > ul{
         flex-direction: column;
         margin-top: 20px;
+        
     }
     .img .m{
         align-items: center;
@@ -23,13 +24,14 @@
         margin: 60px;
         padding-left: 40px;
     }
+    
 }
 
 
 
 /* medium device responsive */
 @media screen and (min-width:576px)and (max-width:992px) {
-    .nav-list > ul{
+    .nav-list > ul, .section{
         flex-direction: column;
         margin-top: 20px;
     }
